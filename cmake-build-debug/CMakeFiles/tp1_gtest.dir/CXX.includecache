@@ -495,16 +495,28 @@ EstrategiaBacktracking.h
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaBacktracking.h
 
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaBacktracking.h
+vector
+-
 Estrategia.h
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/Estrategia.h
+Backtracking.h
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/Backtracking.h
 
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaFuerzaBruta.cpp
 EstrategiaFuerzaBruta.h
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaFuerzaBruta.h
 
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaFuerzaBruta.h
+vector
+-
 Estrategia.h
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/Estrategia.h
+
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/test/BacktrackingPodasTest.cpp
+gtest/gtest.h
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/test/gtest/gtest.h
+../src/EstrategiaBacktracking.h
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaBacktracking.h
 
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/test/BacktrackingTest.cpp
 gtest/gtest.h

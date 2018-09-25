@@ -302,6 +302,33 @@ backtracking/src/EstrategiaFuerzaBruta.cpp.s:
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.s
 .PHONY : backtracking/src/EstrategiaFuerzaBruta.cpp.s
 
+backtracking/test/BacktrackingPodasTest.o: backtracking/test/BacktrackingPodasTest.cpp.o
+
+.PHONY : backtracking/test/BacktrackingPodasTest.o
+
+# target to build an object file
+backtracking/test/BacktrackingPodasTest.cpp.o:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o
+.PHONY : backtracking/test/BacktrackingPodasTest.cpp.o
+
+backtracking/test/BacktrackingPodasTest.i: backtracking/test/BacktrackingPodasTest.cpp.i
+
+.PHONY : backtracking/test/BacktrackingPodasTest.i
+
+# target to preprocess a source file
+backtracking/test/BacktrackingPodasTest.cpp.i:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.i
+.PHONY : backtracking/test/BacktrackingPodasTest.cpp.i
+
+backtracking/test/BacktrackingPodasTest.s: backtracking/test/BacktrackingPodasTest.cpp.s
+
+.PHONY : backtracking/test/BacktrackingPodasTest.s
+
+# target to generate assembly for a file
+backtracking/test/BacktrackingPodasTest.cpp.s:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.s
+.PHONY : backtracking/test/BacktrackingPodasTest.cpp.s
+
 backtracking/test/BacktrackingTest.o: backtracking/test/BacktrackingTest.cpp.o
 
 .PHONY : backtracking/test/BacktrackingTest.o
@@ -436,6 +463,9 @@ help:
 	@echo "... backtracking/src/EstrategiaFuerzaBruta.o"
 	@echo "... backtracking/src/EstrategiaFuerzaBruta.i"
 	@echo "... backtracking/src/EstrategiaFuerzaBruta.s"
+	@echo "... backtracking/test/BacktrackingPodasTest.o"
+	@echo "... backtracking/test/BacktrackingPodasTest.i"
+	@echo "... backtracking/test/BacktrackingPodasTest.s"
 	@echo "... backtracking/test/BacktrackingTest.o"
 	@echo "... backtracking/test/BacktrackingTest.i"
 	@echo "... backtracking/test/BacktrackingTest.s"

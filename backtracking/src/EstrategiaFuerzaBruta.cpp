@@ -4,6 +4,7 @@
 
 #include "EstrategiaFuerzaBruta.h"
 
-bool EstrategiaFuerzaBruta::estrategiaDePoda() {
+bool EstrategiaFuerzaBruta::estrategiaDePoda(std::vector<int> originalSet, int objectiveValue, int index,
+                                             std::vector<int> partialResult, int bestResult) {
     return false;
 }

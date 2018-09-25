@@ -20,11 +20,11 @@ public:
 
     int execute(int elements[],int objectValue, int sizeOfElements);
 
-    int minimoSubconjuntoQueSuma(std::vector<int> originalSet, int objectiveValue, int index,
-                                 std::vector<int> partialResult, int &bestResult);
+    void minimoSubconjuntoQueSuma(std::vector<int> &originalSet, int &objectiveValue, int index,
+                                  std::vector<int> partialResult, int &bestResult);
 
+    static int summation(std::vector<int> &vector);
 private:
-    bool summationEqualsTo(std::vector<int> vector, int value);
     Estrategia *estrategia;
 };
 

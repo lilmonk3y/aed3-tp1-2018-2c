@@ -5,6 +5,7 @@ CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o: ../backtracking/sr
 CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o: ../backtracking/src/Backtracking.h
 CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o: ../backtracking/src/Estrategia.h
 
+CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o: ../backtracking/src/Backtracking.h
 CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o: ../backtracking/src/Estrategia.h
 CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o: ../backtracking/src/EstrategiaBacktracking.cpp
 CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o: ../backtracking/src/EstrategiaBacktracking.h
@@ -12,6 +13,33 @@ CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o: ../backt
 CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o: ../backtracking/src/Estrategia.h
 CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o: ../backtracking/src/EstrategiaFuerzaBruta.cpp
 CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o: ../backtracking/src/EstrategiaFuerzaBruta.h
+
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-death-test.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-message.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-param-test.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-printers.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-test-part.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-typed-test.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_pred_impl.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_prod.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-internal.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-tuple.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../backtracking/src/Backtracking.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../backtracking/src/Estrategia.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../backtracking/src/EstrategiaBacktracking.h
+CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o: ../backtracking/test/BacktrackingPodasTest.cpp
 
 CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-message.h

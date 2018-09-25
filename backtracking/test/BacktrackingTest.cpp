@@ -10,7 +10,7 @@
 struct BacktrackingTest : testing::Test{
     Backtracking *backtracking;
     BacktrackingTest(){
-        backtracking = new Backtracking(new EstrategiaFuerzaBruta());
+        backtracking = new Backtracking(new EstrategiaBacktracking());
     }
     ~BacktrackingTest(){
         delete backtracking;
