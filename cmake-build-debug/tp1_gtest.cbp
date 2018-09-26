@@ -370,6 +370,15 @@
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/main.cpp">
 			<Option target="tp1_gtest"/>
 		</Unit>
+		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.cpp">
+			<Option target="tp1_gtest"/>
+		</Unit>
+		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.h">
+			<Option target="tp1_gtest"/>
+		</Unit>
+		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/test/ProgramacionDinamicaTest.cpp">
+			<Option target="tp1_gtest"/>
+		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/prueba_integracion_con_gtest/src/factorial.cpp">
 			<Option target="tp1_gtest"/>
 		</Unit>

@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o"
   "CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o"
   "CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o"
+  "CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o"
+  "CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o"
   "tp1_gtest.pdb"
   "tp1_gtest"
 )

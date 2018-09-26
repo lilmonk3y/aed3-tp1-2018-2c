@@ -249,6 +249,54 @@ CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o.provides:
 CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o.provides.build: CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o
 
 
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: CMakeFiles/tp1_gtest.dir/flags.make
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../programacion_dinamica/test/ProgramacionDinamicaTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o -c /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/test/ProgramacionDinamicaTest.cpp
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/test/ProgramacionDinamicaTest.cpp > CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.i
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/test/ProgramacionDinamicaTest.cpp -o CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.s
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o.requires:
+
+.PHONY : CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o.requires
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o.provides: CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o.provides.build
+.PHONY : CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o.provides
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o.provides.build: CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o
+
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o: CMakeFiles/tp1_gtest.dir/flags.make
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o: ../programacion_dinamica/src/ProgramacionDinamica.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o -c /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.cpp
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.cpp > CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.i
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.cpp -o CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.s
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o.requires:
+
+.PHONY : CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o.requires
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o.provides: CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o.provides.build
+.PHONY : CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o.provides
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o.provides.build: CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o
+
+
 # Object files for target tp1_gtest
 tp1_gtest_OBJECTS = \
 "CMakeFiles/tp1_gtest.dir/main.cpp.o" \
@@ -258,7 +306,9 @@ tp1_gtest_OBJECTS = \
 "CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o" \
 "CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o" \
 "CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o" \
-"CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o"
+"CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o" \
+"CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o" \
+"CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o"
 
 # External object files for target tp1_gtest
 tp1_gtest_EXTERNAL_OBJECTS =
@@ -271,12 +321,14 @@ tp1_gtest: CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o
 tp1_gtest: CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o
 tp1_gtest: CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o
 tp1_gtest: CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o
+tp1_gtest: CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o
+tp1_gtest: CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o
 tp1_gtest: CMakeFiles/tp1_gtest.dir/build.make
 tp1_gtest: lib/googletest/googlemock/gtest/libgtestd.a
 tp1_gtest: lib/googletest/googlemock/gtest/libgtest_maind.a
 tp1_gtest: lib/googletest/googlemock/gtest/libgtestd.a
 tp1_gtest: CMakeFiles/tp1_gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable tp1_gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable tp1_gtest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tp1_gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -292,6 +344,8 @@ CMakeFiles/tp1_gtest.dir/requires: CMakeFiles/tp1_gtest.dir/backtracking/src/Bac
 CMakeFiles/tp1_gtest.dir/requires: CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o.requires
 CMakeFiles/tp1_gtest.dir/requires: CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o.requires
 CMakeFiles/tp1_gtest.dir/requires: CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o.requires
+CMakeFiles/tp1_gtest.dir/requires: CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o.requires
+CMakeFiles/tp1_gtest.dir/requires: CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o.requires
 
 .PHONY : CMakeFiles/tp1_gtest.dir/requires
 

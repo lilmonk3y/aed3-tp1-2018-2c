@@ -383,6 +383,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+programacion_dinamica/src/ProgramacionDinamica.o: programacion_dinamica/src/ProgramacionDinamica.cpp.o
+
+.PHONY : programacion_dinamica/src/ProgramacionDinamica.o
+
+# target to build an object file
+programacion_dinamica/src/ProgramacionDinamica.cpp.o:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o
+.PHONY : programacion_dinamica/src/ProgramacionDinamica.cpp.o
+
+programacion_dinamica/src/ProgramacionDinamica.i: programacion_dinamica/src/ProgramacionDinamica.cpp.i
+
+.PHONY : programacion_dinamica/src/ProgramacionDinamica.i
+
+# target to preprocess a source file
+programacion_dinamica/src/ProgramacionDinamica.cpp.i:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.i
+.PHONY : programacion_dinamica/src/ProgramacionDinamica.cpp.i
+
+programacion_dinamica/src/ProgramacionDinamica.s: programacion_dinamica/src/ProgramacionDinamica.cpp.s
+
+.PHONY : programacion_dinamica/src/ProgramacionDinamica.s
+
+# target to generate assembly for a file
+programacion_dinamica/src/ProgramacionDinamica.cpp.s:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.s
+.PHONY : programacion_dinamica/src/ProgramacionDinamica.cpp.s
+
+programacion_dinamica/test/ProgramacionDinamicaTest.o: programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o
+
+.PHONY : programacion_dinamica/test/ProgramacionDinamicaTest.o
+
+# target to build an object file
+programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o
+.PHONY : programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o
+
+programacion_dinamica/test/ProgramacionDinamicaTest.i: programacion_dinamica/test/ProgramacionDinamicaTest.cpp.i
+
+.PHONY : programacion_dinamica/test/ProgramacionDinamicaTest.i
+
+# target to preprocess a source file
+programacion_dinamica/test/ProgramacionDinamicaTest.cpp.i:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.i
+.PHONY : programacion_dinamica/test/ProgramacionDinamicaTest.cpp.i
+
+programacion_dinamica/test/ProgramacionDinamicaTest.s: programacion_dinamica/test/ProgramacionDinamicaTest.cpp.s
+
+.PHONY : programacion_dinamica/test/ProgramacionDinamicaTest.s
+
+# target to generate assembly for a file
+programacion_dinamica/test/ProgramacionDinamicaTest.cpp.s:
+	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.s
+.PHONY : programacion_dinamica/test/ProgramacionDinamicaTest.cpp.s
+
 prueba_integracion_con_gtest/src/factorial.o: prueba_integracion_con_gtest/src/factorial.cpp.o
 
 .PHONY : prueba_integracion_con_gtest/src/factorial.o
@@ -472,6 +526,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... programacion_dinamica/src/ProgramacionDinamica.o"
+	@echo "... programacion_dinamica/src/ProgramacionDinamica.i"
+	@echo "... programacion_dinamica/src/ProgramacionDinamica.s"
+	@echo "... programacion_dinamica/test/ProgramacionDinamicaTest.o"
+	@echo "... programacion_dinamica/test/ProgramacionDinamicaTest.i"
+	@echo "... programacion_dinamica/test/ProgramacionDinamicaTest.s"
 	@echo "... prueba_integracion_con_gtest/src/factorial.o"
 	@echo "... prueba_integracion_con_gtest/src/factorial.i"
 	@echo "... prueba_integracion_con_gtest/src/factorial.s"

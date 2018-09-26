@@ -110,6 +110,34 @@ CMakeFiles/tp1_gtest.dir/main.cpp.o: ../lib/googletest/googletest/include/gtest/
 CMakeFiles/tp1_gtest.dir/main.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/tp1_gtest.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o: ../programacion_dinamica/src/ProgramacionDinamica.cpp
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o: ../programacion_dinamica/src/ProgramacionDinamica.h
+
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-death-test.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-message.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-param-test.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-printers.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-test-part.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest-typed-test.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_pred_impl.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/gtest_prod.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-port.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/custom/gtest-printers.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-filepath.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-internal.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-param-util.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port-arch.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-port.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-string.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-tuple.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../lib/googletest/googletest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../programacion_dinamica/src/ProgramacionDinamica.h
+CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o: ../programacion_dinamica/test/ProgramacionDinamicaTest.cpp
+
 CMakeFiles/tp1_gtest.dir/prueba_integracion_con_gtest/src/factorial.cpp.o: ../prueba_integracion_con_gtest/src/factorial.cpp
 CMakeFiles/tp1_gtest.dir/prueba_integracion_con_gtest/src/factorial.cpp.o: ../prueba_integracion_con_gtest/src/factorial.h
 
