@@ -61,3 +61,67 @@ TEST_F(PDtest,whenArrayLengthIsBiggerThanOne_mustCallRecursivePath){
 
     ASSERT_EQ(2, response);
 }
+
+
+TEST_F(PDtest,testingSubsets_1){
+    int elements[] = {3,2,1,3,8};
+    int value = 9;
+
+    int response = programacionDinamica->execute(elements,value, sizeof(elements));
+
+    ASSERT_EQ(2, response);
+}
+
+TEST_F(PDtest,testingSubsets_2){
+    int elements[] = {10,15,5,10,5};
+    int value = 25;
+
+    int response = programacionDinamica->execute(elements,value, sizeof(elements));
+
+    ASSERT_EQ(2, response);
+}
+
+TEST_F(PDtest,testingSubsets_3){
+    int elements[] = {2,4,7,3,2,1};
+    int value = 8;
+
+    int response = programacionDinamica->execute(elements,value, sizeof(elements));
+
+    ASSERT_EQ(2, response);
+}
+
+TEST_F(PDtest,testingSubsets_4){
+    int elements[] = {2,4,6,4,8,10,2};
+    int value = 11;
+
+    int response = programacionDinamica->execute(elements,value, sizeof(elements));
+
+    ASSERT_EQ(INT_MAX, response);
+}
+
+TEST_F(PDtest,testingSubsets_5){
+    int elements[] = {40,20,22,10,9,8,6,15,30};
+    int value = 57;
+
+    int response = programacionDinamica->execute(elements,value, sizeof(elements));
+
+    ASSERT_EQ(3, response);
+}
+
+TEST_F(PDtest,testingSubsets_6){
+    int elements[] = {10,2,6,8,4,14,2,2,13,1};
+    int value = 14;
+
+    int response = programacionDinamica->execute(elements,value, sizeof(elements));
+
+    ASSERT_EQ(1, response);
+}
+
+TEST_F(PDtest,testingSubsets_7){
+    int elements[] = {2,6,4,8,10,12,2,8,6};
+    int value = 13;
+
+    int response = programacionDinamica->execute(elements,value, sizeof(elements));
+
+    ASSERT_EQ(INT_MAX, response);
+}

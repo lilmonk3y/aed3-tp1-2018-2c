@@ -4,7 +4,6 @@
 
 #include <climits>
 #include <vector>
-#include <algorithm>
 #include "ProgramacionDinamica.h"
 
 unsigned int ProgramacionDinamica::execute(int *elements, int objectiveValue, int sizeOfElements) {
@@ -36,7 +35,9 @@ const unsigned int & ProgramacionDinamica::recursivePath(unsigned long index, in
                                                          std::vector<int> &originalSet,
                                                          const std::vector<std::vector<unsigned int>> &solutions) {
     return std::__1::min(minimoConjuntoQueSuma(index - 1, partialValue, originalSet, solutions),
-                         (partialValue - originalSet.at(index) < 0) ? INT_MAX : minimoConjuntoQueSuma(index - 1, partialValue - originalSet.at(index) , originalSet, solutions) + 1);
+                         (partialValue - originalSet.at(index) < 0) ?
+                             INT_MAX :
+                             minimoConjuntoQueSuma(index - 1, partialValue - originalSet.at(index) , originalSet, solutions) + 1);
 }
 
 void ProgramacionDinamica::initialize(std::vector<std::vector<unsigned int>> &vector, unsigned long indexX, int indexY) {
