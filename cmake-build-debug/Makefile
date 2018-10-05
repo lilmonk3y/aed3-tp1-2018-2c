@@ -157,6 +157,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named FUERZA_BRUTA
+
+# Build rule for target.
+FUERZA_BRUTA: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 FUERZA_BRUTA
+.PHONY : FUERZA_BRUTA
+
+# fast build rule for target.
+FUERZA_BRUTA/fast:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/build
+.PHONY : FUERZA_BRUTA/fast
+
+#=============================================================================
 # Target rules for targets named tp1_gtest
 
 # Build rule for target.
@@ -227,6 +240,7 @@ backtracking/src/Backtracking.o: backtracking/src/Backtracking.cpp.o
 
 # target to build an object file
 backtracking/src/Backtracking.cpp.o:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/Backtracking.cpp.o
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o
 .PHONY : backtracking/src/Backtracking.cpp.o
 
@@ -236,6 +250,7 @@ backtracking/src/Backtracking.i: backtracking/src/Backtracking.cpp.i
 
 # target to preprocess a source file
 backtracking/src/Backtracking.cpp.i:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/Backtracking.cpp.i
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.i
 .PHONY : backtracking/src/Backtracking.cpp.i
 
@@ -245,6 +260,7 @@ backtracking/src/Backtracking.s: backtracking/src/Backtracking.cpp.s
 
 # target to generate assembly for a file
 backtracking/src/Backtracking.cpp.s:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/Backtracking.cpp.s
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.s
 .PHONY : backtracking/src/Backtracking.cpp.s
 
@@ -281,6 +297,7 @@ backtracking/src/EstrategiaFuerzaBruta.o: backtracking/src/EstrategiaFuerzaBruta
 
 # target to build an object file
 backtracking/src/EstrategiaFuerzaBruta.cpp.o:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o
 .PHONY : backtracking/src/EstrategiaFuerzaBruta.cpp.o
 
@@ -290,6 +307,7 @@ backtracking/src/EstrategiaFuerzaBruta.i: backtracking/src/EstrategiaFuerzaBruta
 
 # target to preprocess a source file
 backtracking/src/EstrategiaFuerzaBruta.cpp.i:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.i
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.i
 .PHONY : backtracking/src/EstrategiaFuerzaBruta.cpp.i
 
@@ -299,6 +317,7 @@ backtracking/src/EstrategiaFuerzaBruta.s: backtracking/src/EstrategiaFuerzaBruta
 
 # target to generate assembly for a file
 backtracking/src/EstrategiaFuerzaBruta.cpp.s:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.s
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.s
 .PHONY : backtracking/src/EstrategiaFuerzaBruta.cpp.s
 
@@ -355,6 +374,33 @@ backtracking/test/BacktrackingTest.s: backtracking/test/BacktrackingTest.cpp.s
 backtracking/test/BacktrackingTest.cpp.s:
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingTest.cpp.s
 .PHONY : backtracking/test/BacktrackingTest.cpp.s
+
+execute_src/getInputMultipleSources.o: execute_src/getInputMultipleSources.cpp.o
+
+.PHONY : execute_src/getInputMultipleSources.o
+
+# target to build an object file
+execute_src/getInputMultipleSources.cpp.o:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources.cpp.o
+.PHONY : execute_src/getInputMultipleSources.cpp.o
+
+execute_src/getInputMultipleSources.i: execute_src/getInputMultipleSources.cpp.i
+
+.PHONY : execute_src/getInputMultipleSources.i
+
+# target to preprocess a source file
+execute_src/getInputMultipleSources.cpp.i:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources.cpp.i
+.PHONY : execute_src/getInputMultipleSources.cpp.i
+
+execute_src/getInputMultipleSources.s: execute_src/getInputMultipleSources.cpp.s
+
+.PHONY : execute_src/getInputMultipleSources.s
+
+# target to generate assembly for a file
+execute_src/getInputMultipleSources.cpp.s:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources.cpp.s
+.PHONY : execute_src/getInputMultipleSources.cpp.s
 
 main.o: main.cpp.o
 
@@ -502,6 +548,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... install/strip"
 	@echo "... install"
+	@echo "... FUERZA_BRUTA"
 	@echo "... list_install_components"
 	@echo "... tp1_gtest"
 	@echo "... gmock"
@@ -523,6 +570,9 @@ help:
 	@echo "... backtracking/test/BacktrackingTest.o"
 	@echo "... backtracking/test/BacktrackingTest.i"
 	@echo "... backtracking/test/BacktrackingTest.s"
+	@echo "... execute_src/getInputMultipleSources.o"
+	@echo "... execute_src/getInputMultipleSources.i"
+	@echo "... execute_src/getInputMultipleSources.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
