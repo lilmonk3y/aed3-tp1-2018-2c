@@ -8,7 +8,7 @@
 
 class ProgramacionDinamica {
 public:
-    unsigned int execute(int elements[], int objectiveValue, int sizeOfElements);
+    unsigned int execute(std::vector<int>& elements, int objectiveValue);
 
     unsigned int minimoConjuntoQueSuma(unsigned long index, int partialValue, std::vector<int> originalSet,
                                        std::vector<std::vector<unsigned int>> solutions);

@@ -18,7 +18,7 @@ public:
     }
 
 
-    int execute(int elements[],int objectValue, int sizeOfElements);
+    int execute(std::vector<int> &elements, int objectValue);
 
     void minimoSubconjuntoQueSuma(std::vector<int> &originalSet, int &objectiveValue, int index,
                                   std::vector<int> partialResult, int &bestResult);

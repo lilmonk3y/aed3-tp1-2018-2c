@@ -5,11 +5,10 @@
 #include "Backtracking.h"
 #include <numeric>
 
-int Backtracking::execute(int elements[], int objectValue, int sizeOfElements) {
-    std::vector<int> originalSet (elements, elements + sizeOfElements / sizeof(int) );
+int Backtracking::execute(std::vector<int> &elements, int objectValue) {
     std::vector<int> result;
     int responce = INT_MAX;
-    minimoSubconjuntoQueSuma(originalSet,objectValue,0,result,responce);
+    minimoSubconjuntoQueSuma(elements,objectValue,0,result,responce);
     return responce;
 }
 

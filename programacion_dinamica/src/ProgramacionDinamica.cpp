@@ -6,12 +6,11 @@
 #include <vector>
 #include "ProgramacionDinamica.h"
 
-unsigned int ProgramacionDinamica::execute(int *elements, int objectiveValue, int sizeOfElements) {
-    std::vector<int> originalSet (elements, elements + sizeOfElements / sizeof(int) );
+unsigned int ProgramacionDinamica::execute(std::vector<int>& elements, int objectiveValue) {
     std::vector<std::vector<unsigned int>> solutions;
-    initialize(solutions,originalSet.size(),objectiveValue+1);
-    unsigned long responseIndex = originalSet.size() - 1;
-    return minimoConjuntoQueSuma(responseIndex, objectiveValue, originalSet, solutions);
+    initialize(solutions,elements.size(),objectiveValue+1);
+    unsigned long responseIndex = elements.size() - 1;
+    return minimoConjuntoQueSuma(responseIndex, objectiveValue, elements, solutions);
 }
 
 unsigned int ProgramacionDinamica::minimoConjuntoQueSuma(unsigned long index, int partialValue,

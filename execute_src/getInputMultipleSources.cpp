@@ -7,9 +7,9 @@
 #include "../backtracking/src/Backtracking.h"
 #include "../backtracking/src/EstrategiaFuerzaBruta.h"
 
-int callSolution(int elements[], int objectiveValue, int size){
+int callSolution(std::vector<int> &elements, int objectiveValue) {
     Backtracking *backtracking = new Backtracking(new EstrategiaFuerzaBruta());
-    int response = backtracking->execute(elements,objectiveValue,size);
+    int response = backtracking->execute(elements, objectiveValue);
     if( response == INT_MAX){
         response = -1;
     }
@@ -24,14 +24,15 @@ int main(){
     std::cin >> sizeOfArray;
     std::cin >> objectiveValue;
     while(sizeOfArray != 0 && objectiveValue != 0){
-        std::array<int,sizeOfArray> elements;
+        std::vector<int> elements;
+        elements.resize(sizeOfArray);
         int value;
         for(int index = 0; index < sizeOfArray; index ++){
             std::cin >> value;
-            elements[index] = value;
+            elements.at(index) = value;
         }
 
-        std::cout << callSolution(elements,objectiveValue,sizeOfArray) << std::endl;
+        std::cout << callSolution(elements, objectiveValue) << std::endl;
 
         std::cin >> sizeOfArray;
         std::cin >> objectiveValue;
