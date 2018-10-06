@@ -21,9 +21,11 @@ public:
     int execute(std::vector<int> &elements, int objectValue);
 
     void minimoSubconjuntoQueSuma(std::vector<int> &originalSet, int &objectiveValue, int &bestResult, int index,
-                                      int partialResult, int partialSum);
+                                      int partialResult, int partialSum, std::vector<int> &partialSummation);
 
     static int summation(std::vector<int> &vector);
+
+    int summationFrom(std::vector<int> &vector, int index);
 private:
     Estrategia *estrategia;
 };

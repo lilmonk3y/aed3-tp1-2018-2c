@@ -11,7 +11,7 @@
 class EstrategiaFuerzaBruta : public Estrategia {
 public:
     bool estrategiaDePoda(std::vector<int> originalSet, int objectiveValue, int bestResult, int index, int partialResult,
-                              int partialSum);
+                              int partialSum, std::vector<int> &partialSummation);
 };
 
 

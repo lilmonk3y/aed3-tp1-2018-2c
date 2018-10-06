@@ -11,14 +11,14 @@
 class EstrategiaBacktracking : public Estrategia{
 public:
     bool estrategiaDePoda(std::vector<int> originalSet, int objectiveValue, int bestResult, int index, int partialResult,
-                              int partialSum);
+                              int partialSum, std::vector<int> &partialSummation);
 
-    bool factibilidad(std::vector<int> &originalSet, int objectiveValue, int index, int partialResult, int partialSum);
+    bool factibilidad(std::vector<int> &originalSet, int objectiveValue, int index, int partialResult,
+                          int partialSum, std::vector<int> &partialSummation);
 
     bool optimalidad(std::vector<int> &originalSet, int objectiveValue, int bestResult, int index, int partialResult,
                          int partialSum);
 
-    int summationFrom(std::vector<int> &vector, int index);
 };
 
 
