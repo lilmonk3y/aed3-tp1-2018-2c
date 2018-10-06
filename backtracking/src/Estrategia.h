@@ -8,8 +8,8 @@
 
 class Estrategia {
 public:
-    virtual bool estrategiaDePoda(std::vector<int> originalSet, int objectiveValue, int index,
-                                  std::vector<int> partialResult, int bestResult) = 0;
+    virtual bool estrategiaDePoda(std::vector<int> originalSet, int objectiveValue, int bestResult, int index, int partialResult,
+                                      int partialSum) = 0;
 };
 
 

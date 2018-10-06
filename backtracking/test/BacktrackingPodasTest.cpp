@@ -19,12 +19,11 @@ struct PodasTest : testing::Test {
 TEST_F(PodasTest,whenPartialResultSummationIsBiggerThanObjectiveValue_mustReturnTrue){
     std::vector<int> originalSet;
     int objectiveValue = 10;
-    int elements2[] = {6,5,4};
-    std::vector<int> partialResult(elements2, elements2 + sizeof(elements2) / sizeof(int) );
+    int partialResult = 3;
     int bestResult;
     int index;
 
-    bool resultado = podas->estrategiaDePoda(originalSet,objectiveValue,index,partialResult,bestResult);
+    bool resultado = podas->estrategiaDePoda(originalSet, objectiveValue, bestResult, index, partialResult, 15);
 
     ASSERT_EQ(true,resultado);
 }
@@ -33,12 +32,11 @@ TEST_F(PodasTest,whenPartialResultSummationIsSmallerThanObjectiveValue_mustRetur
     int elements[] = {10,9,8,7};
     std::vector<int> originalSet(elements, elements + sizeof(elements) / sizeof(int) );
     int objectiveValue = 10;
-    int elements2[] = {7};
-    std::vector<int> partialResult(elements2, elements2 + sizeof(elements2) / sizeof(int) );
+    int partialResult = 1;
     int bestResult = 10;
     int index = 3;
 
-    bool resultado = podas->estrategiaDePoda(originalSet,objectiveValue,index,partialResult,bestResult);
+    bool resultado = podas->estrategiaDePoda(originalSet, objectiveValue, bestResult, index, partialResult, 7);
 
     ASSERT_EQ(false,resultado);
 }
@@ -48,12 +46,11 @@ TEST_F(PodasTest,whenSummationOfPartialResultPlusNextElementsInOriginalSetAreSma
     int elements[] = {1,2,3,4,5,6};
     std::vector<int> originalSet(elements, elements + sizeof(elements) / sizeof(int) );
     int objectiveValue = 20;
-    int elements2[] = {3,4};
-    std::vector<int> partialResult(elements2, elements2 + sizeof(elements2) / sizeof(int) );
+    int partialResult = 2;
     int bestResult = 3;
     int index = 4;
 
-    bool resultado = podas->estrategiaDePoda(originalSet,objectiveValue,index,partialResult,bestResult);
+    bool resultado = podas->estrategiaDePoda(originalSet, objectiveValue, bestResult, index, partialResult, 7);
 
     ASSERT_EQ(true,resultado);
 }
@@ -76,4 +73,17 @@ TEST_F(PodasTest,test_summationFrom2){
     int resultado = podas->summationFrom(originalSet,index);
 
     ASSERT_EQ(14,resultado);
+}
+
+TEST_F(PodasTest,whenBestSolutionCanBeImproved_mustReturnFalse){
+    int elements[] = {10,9,8,7};
+    std::vector<int> originalSet(elements, elements + sizeof(elements) / sizeof(int) );
+    int objectiveValue = 10;
+    int partialResult = 1;
+    int bestResult = 3;
+    int index = 2;
+
+    bool resultado = podas->estrategiaDePoda(originalSet, objectiveValue, bestResult, index, partialResult, 7);
+
+    ASSERT_EQ(false,resultado);
 }

@@ -13,5 +13,11 @@ target_link_libraries(tp1_gtest gtest gtest_main)
 
 ### executables ###
 
-set(FUERZA_BRUTA_SRC_MULTIPLE backtracking/src/Backtracking.cpp backtracking/src/Backtracking.h  backtracking/src/Estrategia.h backtracking/src/EstrategiaFuerzaBruta.cpp backtracking/src/EstrategiaFuerzaBruta.h  execute_src/getInputMultipleSources.cpp)
-add_executable(FUERZA_BRUTA ${FUERZA_BRUTA_SRC_MULTIPLE})
+set(FUERZA_BRUTA_SRC backtracking/src/Backtracking.cpp backtracking/src/Backtracking.h  backtracking/src/Estrategia.h backtracking/src/EstrategiaFuerzaBruta.cpp backtracking/src/EstrategiaFuerzaBruta.h  execute_src/getInputMultipleSources-FB.cpp)
+add_executable(FUERZA_BRUTA ${FUERZA_BRUTA_SRC})
+
+set(BACKTRACKING_SRC backtracking/src/Backtracking.cpp backtracking/src/Backtracking.h  backtracking/src/Estrategia.h backtracking/src/EstrategiaBacktracking.cpp backtracking/src/EstrategiaBacktracking.h execute_src/getInputMultipleSources-BT.cpp)
+add_executable(BACKTRACKING ${BACKTRACKING_SRC})
+
+set(PROGRAMACION_DINAMICA_SRC programacion_dinamica/src/ProgramacionDinamica.h programacion_dinamica/src/ProgramacionDinamica.cpp execute_src/getInputMultipleSources-PD.cpp)
+add_executable(PROGRAMACION_DINAMICA ${PROGRAMACION_DINAMICA_SRC})

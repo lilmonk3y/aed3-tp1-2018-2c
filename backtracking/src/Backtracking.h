@@ -20,8 +20,8 @@ public:
 
     int execute(std::vector<int> &elements, int objectValue);
 
-    void minimoSubconjuntoQueSuma(std::vector<int> &originalSet, int &objectiveValue, int index,
-                                  std::vector<int> partialResult, int &bestResult);
+    void minimoSubconjuntoQueSuma(std::vector<int> &originalSet, int &objectiveValue, int &bestResult, int index,
+                                      int partialResult, int partialSum);
 
     static int summation(std::vector<int> &vector);
 private:

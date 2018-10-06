@@ -1,10 +1,12 @@
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/install/local.dir
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/PROGRAMACION_DINAMICA.dir
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/list_install_components.dir
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/BACKTRACKING.dir
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/install/strip.dir
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/install.dir
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/FUERZA_BRUTA.dir
-/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/list_install_components.dir
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/tp1_gtest.dir
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/lib/googletest/CMakeFiles/install/local.dir
 /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/lib/googletest/CMakeFiles/install/strip.dir

@@ -10,13 +10,13 @@
 #include "Backtracking.h"
 class EstrategiaBacktracking : public Estrategia{
 public:
-    bool estrategiaDePoda(std::vector<int> originalSet, int objectiveValue, int index,
-                          std::vector<int> partialResult, int bestResult);
+    bool estrategiaDePoda(std::vector<int> originalSet, int objectiveValue, int bestResult, int index, int partialResult,
+                              int partialSum);
 
-    bool factibilidad(std::vector<int> &originalSet, std::vector<int> &partialResult,
-                      int objectiveValue, int index);
+    bool factibilidad(std::vector<int> &originalSet, int objectiveValue, int index, int partialResult, int partialSum);
 
-    bool optimalidad(std::vector<int> partialResult, int objectiveValue, int bestResult);
+    bool optimalidad(std::vector<int> &originalSet, int objectiveValue, int bestResult, int index, int partialResult,
+                         int partialSum);
 
     int summationFrom(std::vector<int> &vector, int index);
 };

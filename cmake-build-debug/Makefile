@@ -79,6 +79,16 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -114,16 +124,6 @@ install/fast: preinstall/fast
 	/Applications/CLion.app/Contents/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles /Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/CMakeFiles/progress.marks
@@ -155,6 +155,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named PROGRAMACION_DINAMICA
+
+# Build rule for target.
+PROGRAMACION_DINAMICA: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PROGRAMACION_DINAMICA
+.PHONY : PROGRAMACION_DINAMICA
+
+# fast build rule for target.
+PROGRAMACION_DINAMICA/fast:
+	$(MAKE) -f CMakeFiles/PROGRAMACION_DINAMICA.dir/build.make CMakeFiles/PROGRAMACION_DINAMICA.dir/build
+.PHONY : PROGRAMACION_DINAMICA/fast
+
+#=============================================================================
+# Target rules for targets named BACKTRACKING
+
+# Build rule for target.
+BACKTRACKING: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BACKTRACKING
+.PHONY : BACKTRACKING
+
+# fast build rule for target.
+BACKTRACKING/fast:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/build
+.PHONY : BACKTRACKING/fast
 
 #=============================================================================
 # Target rules for targets named FUERZA_BRUTA
@@ -240,6 +266,7 @@ backtracking/src/Backtracking.o: backtracking/src/Backtracking.cpp.o
 
 # target to build an object file
 backtracking/src/Backtracking.cpp.o:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/backtracking/src/Backtracking.cpp.o
 	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/Backtracking.cpp.o
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o
 .PHONY : backtracking/src/Backtracking.cpp.o
@@ -250,6 +277,7 @@ backtracking/src/Backtracking.i: backtracking/src/Backtracking.cpp.i
 
 # target to preprocess a source file
 backtracking/src/Backtracking.cpp.i:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/backtracking/src/Backtracking.cpp.i
 	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/Backtracking.cpp.i
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.i
 .PHONY : backtracking/src/Backtracking.cpp.i
@@ -260,6 +288,7 @@ backtracking/src/Backtracking.s: backtracking/src/Backtracking.cpp.s
 
 # target to generate assembly for a file
 backtracking/src/Backtracking.cpp.s:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/backtracking/src/Backtracking.cpp.s
 	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/Backtracking.cpp.s
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.s
 .PHONY : backtracking/src/Backtracking.cpp.s
@@ -270,6 +299,7 @@ backtracking/src/EstrategiaBacktracking.o: backtracking/src/EstrategiaBacktracki
 
 # target to build an object file
 backtracking/src/EstrategiaBacktracking.cpp.o:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/backtracking/src/EstrategiaBacktracking.cpp.o
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o
 .PHONY : backtracking/src/EstrategiaBacktracking.cpp.o
 
@@ -279,6 +309,7 @@ backtracking/src/EstrategiaBacktracking.i: backtracking/src/EstrategiaBacktracki
 
 # target to preprocess a source file
 backtracking/src/EstrategiaBacktracking.cpp.i:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/backtracking/src/EstrategiaBacktracking.cpp.i
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.i
 .PHONY : backtracking/src/EstrategiaBacktracking.cpp.i
 
@@ -288,6 +319,7 @@ backtracking/src/EstrategiaBacktracking.s: backtracking/src/EstrategiaBacktracki
 
 # target to generate assembly for a file
 backtracking/src/EstrategiaBacktracking.cpp.s:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/backtracking/src/EstrategiaBacktracking.cpp.s
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.s
 .PHONY : backtracking/src/EstrategiaBacktracking.cpp.s
 
@@ -375,32 +407,86 @@ backtracking/test/BacktrackingTest.cpp.s:
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingTest.cpp.s
 .PHONY : backtracking/test/BacktrackingTest.cpp.s
 
-execute_src/getInputMultipleSources.o: execute_src/getInputMultipleSources.cpp.o
+execute_src/getInputMultipleSources-BT.o: execute_src/getInputMultipleSources-BT.cpp.o
 
-.PHONY : execute_src/getInputMultipleSources.o
+.PHONY : execute_src/getInputMultipleSources-BT.o
 
 # target to build an object file
-execute_src/getInputMultipleSources.cpp.o:
-	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources.cpp.o
-.PHONY : execute_src/getInputMultipleSources.cpp.o
+execute_src/getInputMultipleSources-BT.cpp.o:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/execute_src/getInputMultipleSources-BT.cpp.o
+.PHONY : execute_src/getInputMultipleSources-BT.cpp.o
 
-execute_src/getInputMultipleSources.i: execute_src/getInputMultipleSources.cpp.i
+execute_src/getInputMultipleSources-BT.i: execute_src/getInputMultipleSources-BT.cpp.i
 
-.PHONY : execute_src/getInputMultipleSources.i
+.PHONY : execute_src/getInputMultipleSources-BT.i
 
 # target to preprocess a source file
-execute_src/getInputMultipleSources.cpp.i:
-	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources.cpp.i
-.PHONY : execute_src/getInputMultipleSources.cpp.i
+execute_src/getInputMultipleSources-BT.cpp.i:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/execute_src/getInputMultipleSources-BT.cpp.i
+.PHONY : execute_src/getInputMultipleSources-BT.cpp.i
 
-execute_src/getInputMultipleSources.s: execute_src/getInputMultipleSources.cpp.s
+execute_src/getInputMultipleSources-BT.s: execute_src/getInputMultipleSources-BT.cpp.s
 
-.PHONY : execute_src/getInputMultipleSources.s
+.PHONY : execute_src/getInputMultipleSources-BT.s
 
 # target to generate assembly for a file
-execute_src/getInputMultipleSources.cpp.s:
-	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources.cpp.s
-.PHONY : execute_src/getInputMultipleSources.cpp.s
+execute_src/getInputMultipleSources-BT.cpp.s:
+	$(MAKE) -f CMakeFiles/BACKTRACKING.dir/build.make CMakeFiles/BACKTRACKING.dir/execute_src/getInputMultipleSources-BT.cpp.s
+.PHONY : execute_src/getInputMultipleSources-BT.cpp.s
+
+execute_src/getInputMultipleSources-FB.o: execute_src/getInputMultipleSources-FB.cpp.o
+
+.PHONY : execute_src/getInputMultipleSources-FB.o
+
+# target to build an object file
+execute_src/getInputMultipleSources-FB.cpp.o:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources-FB.cpp.o
+.PHONY : execute_src/getInputMultipleSources-FB.cpp.o
+
+execute_src/getInputMultipleSources-FB.i: execute_src/getInputMultipleSources-FB.cpp.i
+
+.PHONY : execute_src/getInputMultipleSources-FB.i
+
+# target to preprocess a source file
+execute_src/getInputMultipleSources-FB.cpp.i:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources-FB.cpp.i
+.PHONY : execute_src/getInputMultipleSources-FB.cpp.i
+
+execute_src/getInputMultipleSources-FB.s: execute_src/getInputMultipleSources-FB.cpp.s
+
+.PHONY : execute_src/getInputMultipleSources-FB.s
+
+# target to generate assembly for a file
+execute_src/getInputMultipleSources-FB.cpp.s:
+	$(MAKE) -f CMakeFiles/FUERZA_BRUTA.dir/build.make CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources-FB.cpp.s
+.PHONY : execute_src/getInputMultipleSources-FB.cpp.s
+
+execute_src/getInputMultipleSources-PD.o: execute_src/getInputMultipleSources-PD.cpp.o
+
+.PHONY : execute_src/getInputMultipleSources-PD.o
+
+# target to build an object file
+execute_src/getInputMultipleSources-PD.cpp.o:
+	$(MAKE) -f CMakeFiles/PROGRAMACION_DINAMICA.dir/build.make CMakeFiles/PROGRAMACION_DINAMICA.dir/execute_src/getInputMultipleSources-PD.cpp.o
+.PHONY : execute_src/getInputMultipleSources-PD.cpp.o
+
+execute_src/getInputMultipleSources-PD.i: execute_src/getInputMultipleSources-PD.cpp.i
+
+.PHONY : execute_src/getInputMultipleSources-PD.i
+
+# target to preprocess a source file
+execute_src/getInputMultipleSources-PD.cpp.i:
+	$(MAKE) -f CMakeFiles/PROGRAMACION_DINAMICA.dir/build.make CMakeFiles/PROGRAMACION_DINAMICA.dir/execute_src/getInputMultipleSources-PD.cpp.i
+.PHONY : execute_src/getInputMultipleSources-PD.cpp.i
+
+execute_src/getInputMultipleSources-PD.s: execute_src/getInputMultipleSources-PD.cpp.s
+
+.PHONY : execute_src/getInputMultipleSources-PD.s
+
+# target to generate assembly for a file
+execute_src/getInputMultipleSources-PD.cpp.s:
+	$(MAKE) -f CMakeFiles/PROGRAMACION_DINAMICA.dir/build.make CMakeFiles/PROGRAMACION_DINAMICA.dir/execute_src/getInputMultipleSources-PD.cpp.s
+.PHONY : execute_src/getInputMultipleSources-PD.cpp.s
 
 main.o: main.cpp.o
 
@@ -435,6 +521,7 @@ programacion_dinamica/src/ProgramacionDinamica.o: programacion_dinamica/src/Prog
 
 # target to build an object file
 programacion_dinamica/src/ProgramacionDinamica.cpp.o:
+	$(MAKE) -f CMakeFiles/PROGRAMACION_DINAMICA.dir/build.make CMakeFiles/PROGRAMACION_DINAMICA.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o
 .PHONY : programacion_dinamica/src/ProgramacionDinamica.cpp.o
 
@@ -444,6 +531,7 @@ programacion_dinamica/src/ProgramacionDinamica.i: programacion_dinamica/src/Prog
 
 # target to preprocess a source file
 programacion_dinamica/src/ProgramacionDinamica.cpp.i:
+	$(MAKE) -f CMakeFiles/PROGRAMACION_DINAMICA.dir/build.make CMakeFiles/PROGRAMACION_DINAMICA.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.i
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.i
 .PHONY : programacion_dinamica/src/ProgramacionDinamica.cpp.i
 
@@ -453,6 +541,7 @@ programacion_dinamica/src/ProgramacionDinamica.s: programacion_dinamica/src/Prog
 
 # target to generate assembly for a file
 programacion_dinamica/src/ProgramacionDinamica.cpp.s:
+	$(MAKE) -f CMakeFiles/PROGRAMACION_DINAMICA.dir/build.make CMakeFiles/PROGRAMACION_DINAMICA.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.s
 	$(MAKE) -f CMakeFiles/tp1_gtest.dir/build.make CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.s
 .PHONY : programacion_dinamica/src/ProgramacionDinamica.cpp.s
 
@@ -545,11 +634,13 @@ help:
 	@echo "... depend"
 	@echo "... install/local"
 	@echo "... rebuild_cache"
+	@echo "... PROGRAMACION_DINAMICA"
+	@echo "... list_install_components"
+	@echo "... BACKTRACKING"
 	@echo "... edit_cache"
 	@echo "... install/strip"
 	@echo "... install"
 	@echo "... FUERZA_BRUTA"
-	@echo "... list_install_components"
 	@echo "... tp1_gtest"
 	@echo "... gmock"
 	@echo "... gmock_main"
@@ -570,9 +661,15 @@ help:
 	@echo "... backtracking/test/BacktrackingTest.o"
 	@echo "... backtracking/test/BacktrackingTest.i"
 	@echo "... backtracking/test/BacktrackingTest.s"
-	@echo "... execute_src/getInputMultipleSources.o"
-	@echo "... execute_src/getInputMultipleSources.i"
-	@echo "... execute_src/getInputMultipleSources.s"
+	@echo "... execute_src/getInputMultipleSources-BT.o"
+	@echo "... execute_src/getInputMultipleSources-BT.i"
+	@echo "... execute_src/getInputMultipleSources-BT.s"
+	@echo "... execute_src/getInputMultipleSources-FB.o"
+	@echo "... execute_src/getInputMultipleSources-FB.i"
+	@echo "... execute_src/getInputMultipleSources-FB.s"
+	@echo "... execute_src/getInputMultipleSources-PD.o"
+	@echo "... execute_src/getInputMultipleSources-PD.i"
+	@echo "... execute_src/getInputMultipleSources-PD.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

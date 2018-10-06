@@ -4,8 +4,10 @@
     <generated>
       <config projectName="tp1_gtest" targetName="gtest" />
       <config projectName="tp1_gtest" targetName="FUERZA_BRUTA" />
+      <config projectName="tp1_gtest" targetName="BACKTRACKING" />
       <config projectName="tp1_gtest" targetName="gmock" />
       <config projectName="tp1_gtest" targetName="gtest_main" />
+      <config projectName="tp1_gtest" targetName="PROGRAMACION_DINAMICA" />
       <config projectName="tp1_gtest" targetName="tp1_gtest" />
       <config projectName="tp1_gtest" targetName="gmock_main" />
     </generated>
@@ -17,18 +19,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34ec942c-aab7-437a-b466-6671d911cf9e" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/execute_src/getInputMultipleSources-BT.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/execute_src/getInputMultipleSources-FB.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/execute_src/getInputMultipleSources-PD.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/execute_src/run_instances.cpp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/backtracking/src/Backtracking.cpp" afterPath="$PROJECT_DIR$/backtracking/src/Backtracking.cpp" />
-      <change beforePath="$PROJECT_DIR$/backtracking/src/Backtracking.h" afterPath="$PROJECT_DIR$/backtracking/src/Backtracking.h" />
-      <change beforePath="$PROJECT_DIR$/backtracking/test/BacktrackingTest.cpp" afterPath="$PROJECT_DIR$/backtracking/test/BacktrackingTest.cpp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change beforePath="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp" afterPath="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp" />
+      <change beforePath="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.h" afterPath="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.h" />
+      <change beforePath="$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp" afterPath="$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingTest.cpp.o" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingTest.cpp.o" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/tp1_gtest" afterPath="$PROJECT_DIR$/cmake-build-debug/tp1_gtest" />
-      <change beforePath="$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp" afterPath="$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp" />
-      <change beforePath="$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp" afterPath="$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp" />
-      <change beforePath="$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.h" afterPath="$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.h" />
-      <change beforePath="$PROJECT_DIR$/programacion_dinamica/test/ProgramacionDinamicaTest.cpp" afterPath="$PROJECT_DIR$/programacion_dinamica/test/ProgramacionDinamicaTest.cpp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tp1_gtest.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/tp1_gtest.cbp" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,101 +54,43 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BacktrackingTest.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingTest.cpp">
+      <file leaf-file-name="EstrategiaBacktracking.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#60#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BacktrackingPodasTest.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding>
-                <element signature="e#60#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Backtracking.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="23" column="73" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-              <folding>
-                <element signature="e#60#85#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Backtracking.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="231">
+              <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProgramacionDinamica.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-              <folding>
-                <element signature="e#60#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramacionDinamicaTest.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programacion_dinamica/test/ProgramacionDinamicaTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-              <folding>
-                <element signature="e#60#84#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProgramacionDinamica.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entrada_basica.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/execute_src/entrada_basica.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getInputMultipleSources.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp">
+      <file leaf-file-name="run_instances.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/execute_src/run_instances.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#59#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getInputMultipleSources.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="41" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
               <folding>
                 <element signature="e#60#79#0" expanded="true" />
               </folding>
@@ -143,12 +98,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vector" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
+      <file leaf-file-name="getInputMultipleSources-FB.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources-FB.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1520" column="0" lean-forward="false" selection-start-line="1520" selection-start-column="0" selection-end-line="1520" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="630">
+              <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+              <folding>
+                <element signature="e#61#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getInputMultipleSources-BT.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources-BT.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-172">
+              <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+              <folding>
+                <element signature="e#61#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getInputMultipleSources-PD.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources-PD.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+              <folding>
+                <element signature="e#60#79#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,17 +159,13 @@
         <option value="$PROJECT_DIR$/backtracking/test/factorialTest.cpp" />
         <option value="$PROJECT_DIR$/backtracking/src/Estrategia.cpp" />
         <option value="$PROJECT_DIR$/backtracking/src/Estrategia.h" />
-        <option value="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.h" />
         <option value="$PROJECT_DIR$/backtracking/src/EstrategiaFuerzaBruta.h" />
         <option value="$PROJECT_DIR$/backtracking/src/EstrategiaFuerzaBruta.cpp" />
-        <option value="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp" />
-        <option value="$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/programacion_dinamica/test/ProgramacionDinamica.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/build/entrada_basica.txt" />
         <option value="$PROJECT_DIR$/execute_src/getParametersAndRun.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/execute_src/entrada_basica.txt" />
         <option value="$PROJECT_DIR$/backtracking/src/Backtracking.h" />
         <option value="$PROJECT_DIR$/backtracking/src/Backtracking.cpp" />
@@ -196,7 +173,15 @@
         <option value="$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp" />
         <option value="$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.h" />
         <option value="$PROJECT_DIR$/programacion_dinamica/test/ProgramacionDinamicaTest.cpp" />
+        <option value="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.h" />
+        <option value="$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp" />
+        <option value="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp" />
+        <option value="$PROJECT_DIR$/execute_src/run_instances.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp" />
+        <option value="$PROJECT_DIR$/execute_src/getInputMultipleSources-FB.cpp" />
+        <option value="$PROJECT_DIR$/execute_src/getInputMultipleSources-BT.cpp" />
+        <option value="$PROJECT_DIR$/execute_src/getInputMultipleSources-PD.cpp" />
       </list>
     </option>
   </component>
@@ -242,23 +227,6 @@
               <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
               <item name="execute_src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tp1_gtest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
-              <item name="programacion_dinamica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp1_gtest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
-              <item name="programacion_dinamica" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp1_gtest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
-              <item name="programacion_dinamica" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -282,26 +250,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FUERZA_BRUTA">
+  <component name="RunManager" selected="Google Test.BacktrackingTest.testingSubsets_5">
     <configuration name="BacktrackingTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="BacktrackingTest" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="BacktrackingTest.whenASubsetSubIsEqualsToTheValue_mustReturnItsSize" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="BacktrackingTest" TEST_METHOD="whenASubsetSubIsEqualsToTheValue_mustReturnItsSize" TEST_MODE="SUITE_TEST">
-      <envs />
-    </configuration>
-    <configuration name="BacktrackingTest.whenCantGetSubSet_mustReturnINT_MAX" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="BacktrackingTest" TEST_METHOD="whenCantGetSubSet_mustReturnINT_MAX" TEST_MODE="SUITE_TEST">
-      <envs />
-    </configuration>
-    <configuration name="PDtest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="PDtest" TEST_MODE="SUITE_TEST">
+    <configuration name="BacktrackingTest.testingSubsets_5" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="BacktrackingTest" TEST_METHOD="testingSubsets_5" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
     <configuration name="PodasTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="PodasTest" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="PodasTest.test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="PodasTest" TEST_METHOD="test" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="PodasTest.whenBestSolutionCanBeImproved_mustReturnFalse" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="PodasTest" TEST_METHOD="whenBestSolutionCanBeImproved_mustReturnFalse" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="BACKTRACKING" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="BACKTRACKING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="BACKTRACKING">
       <envs />
     </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="FUERZA_BRUTA" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
     <configuration name="FUERZA_BRUTA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="FUERZA_BRUTA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="FUERZA_BRUTA">
+      <envs />
+    </configuration>
+    <configuration name="PROGRAMACION_DINAMICA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="PROGRAMACION_DINAMICA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="PROGRAMACION_DINAMICA">
       <envs />
     </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="gmock" CONFIG_NAME="Debug">
@@ -319,27 +293,29 @@
     <configuration name="tp1_gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest">
       <envs />
     </configuration>
-    <list size="12">
+    <list size="14">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FUERZA_BRUTA" />
-      <item index="2" class="java.lang.String" itemvalue="Application.tp1_gtest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.gmock" />
-      <item index="4" class="java.lang.String" itemvalue="Application.gmock_main" />
-      <item index="5" class="java.lang.String" itemvalue="Application.gtest" />
-      <item index="6" class="java.lang.String" itemvalue="Application.gtest_main" />
-      <item index="7" class="java.lang.String" itemvalue="Google Test.BacktrackingTest" />
-      <item index="8" class="java.lang.String" itemvalue="Google Test.PodasTest" />
-      <item index="9" class="java.lang.String" itemvalue="Google Test.PDtest" />
-      <item index="10" class="java.lang.String" itemvalue="Google Test.BacktrackingTest.whenCantGetSubSet_mustReturnINT_MAX" />
-      <item index="11" class="java.lang.String" itemvalue="Google Test.BacktrackingTest.whenASubsetSubIsEqualsToTheValue_mustReturnItsSize" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BACKTRACKING" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FUERZA_BRUTA" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PROGRAMACION_DINAMICA" />
+      <item index="4" class="java.lang.String" itemvalue="Application.tp1_gtest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.gmock" />
+      <item index="6" class="java.lang.String" itemvalue="Application.gmock_main" />
+      <item index="7" class="java.lang.String" itemvalue="Application.gtest" />
+      <item index="8" class="java.lang.String" itemvalue="Application.gtest_main" />
+      <item index="9" class="java.lang.String" itemvalue="Google Test.BacktrackingTest" />
+      <item index="10" class="java.lang.String" itemvalue="Google Test.PodasTest" />
+      <item index="11" class="java.lang.String" itemvalue="Google Test.PodasTest.test" />
+      <item index="12" class="java.lang.String" itemvalue="Google Test.PodasTest.whenBestSolutionCanBeImproved_mustReturnFalse" />
+      <item index="13" class="java.lang.String" itemvalue="Google Test.BacktrackingTest.testingSubsets_5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Google Test.PDtest" />
+        <item index="0" class="java.lang.String" itemvalue="Google Test.BacktrackingTest.testingSubsets_5" />
         <item index="1" class="java.lang.String" itemvalue="Google Test.BacktrackingTest" />
         <item index="2" class="java.lang.String" itemvalue="Google Test.PodasTest" />
-        <item index="3" class="java.lang.String" itemvalue="Google Test.BacktrackingTest.whenASubsetSubIsEqualsToTheValue_mustReturnItsSize" />
-        <item index="4" class="java.lang.String" itemvalue="Google Test.BacktrackingTest.whenCantGetSubSet_mustReturnINT_MAX" />
+        <item index="3" class="java.lang.String" itemvalue="Google Test.PodasTest.whenBestSolutionCanBeImproved_mustReturnFalse" />
+        <item index="4" class="java.lang.String" itemvalue="Google Test.PodasTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -363,50 +339,50 @@
       <workItem from="1537886559382" duration="8428000" />
       <workItem from="1538342914051" duration="1447000" />
       <workItem from="1538403675609" duration="32000" />
-      <workItem from="1538696831944" duration="10019000" />
+      <workItem from="1538696831944" duration="17855000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BacktrackingTest - 2018.10.04 at 23h 41m 58s.xml">
+    <history-entry file="BacktrackingTest - 2018.10.05 at 19h 15m 50s.xml">
       <configuration name="BacktrackingTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="BacktrackingTest - 2018.10.05 at 01h 10m 26s.xml">
+    <history-entry file="BacktrackingTest - 2018.10.05 at 19h 18m 43s.xml">
       <configuration name="BacktrackingTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="BacktrackingTest - 2018.10.05 at 01h 13m 02s.xml">
+    <history-entry file="BacktrackingTest - 2018.10.05 at 19h 23m 01s.xml">
       <configuration name="BacktrackingTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="BacktrackingTest - 2018.10.05 at 01h 20m 27s.xml">
+    <history-entry file="BacktrackingTest - 2018.10.05 at 19h 23m 30s.xml">
       <configuration name="BacktrackingTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="BacktrackingTest - 2018.10.05 at 01h 21m 00s.xml">
+    <history-entry file="BacktrackingTest - 2018.10.05 at 19h 25m 50s.xml">
       <configuration name="BacktrackingTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="BacktrackingTest_whenASubsetSubIsEqualsToTheValue_mustReturnItsSize - 2018.10.05 at 01h 17m 27s.xml">
-      <configuration name="BacktrackingTest.whenASubsetSubIsEqualsToTheValue_mustReturnItsSize" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="BacktrackingTest - 2018.10.05 at 19h 32m 07s.xml">
+      <configuration name="BacktrackingTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="BacktrackingTest_whenASubsetSubIsEqualsToTheValue_mustReturnItsSize - 2018.10.05 at 01h 17m 56s.xml">
-      <configuration name="BacktrackingTest.whenASubsetSubIsEqualsToTheValue_mustReturnItsSize" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="BacktrackingTest - 2018.10.05 at 19h 34m 44s.xml">
+      <configuration name="BacktrackingTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="PDtest - 2018.09.26 at 00h 38m 02s.xml">
-      <configuration name="PDtest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="BacktrackingTest - 2018.10.05 at 19h 34m 53s.xml">
+      <configuration name="BacktrackingTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="PDtest - 2018.10.05 at 01h 41m 02s.xml">
-      <configuration name="PDtest" configurationId="CMakeGoogleTestRunConfigurationType" />
+    <history-entry file="BacktrackingTest_testingSubsets_5 - 2018.10.05 at 19h 57m 20s.xml">
+      <configuration name="BacktrackingTest.testingSubsets_5" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="PodasTest - 2018.10.05 at 01h 20m 47s.xml">
+    <history-entry file="PodasTest - 2018.10.05 at 19h 15m 26s.xml">
       <configuration name="PodasTest" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59740000" />
+    <option name="totallyTimeSpent" value="67576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="725" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178713" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25178713" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.496875" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -416,7 +392,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3984127" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31269842" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -425,6 +401,26 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.496875" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771823" sideWeight="0.503125" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178713" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31269842" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -441,37 +437,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp</url>
-          <line>67</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp</url>
           <line>10</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp</url>
-          <line>11</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/backtracking/src/Backtracking.cpp</url>
-          <line>10</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp</url>
-          <line>33</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp</url>
-          <line>22</line>
-          <option name="timeStamp" value="37" />
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="38" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -515,34 +486,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaFuerzaBruta.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="92" lean-forward="false" selection-start-line="7" selection-start-column="92" selection-end-line="7" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaFuerzaBruta.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -563,7 +506,7 @@
         <state relative-caret-position="315">
           <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
-            <element signature="e#60#84#0" expanded="true" />
+            <element signature="e#60#84#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -573,7 +516,7 @@
         <state relative-caret-position="315">
           <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
-            <element signature="e#60#84#0" expanded="true" />
+            <element signature="e#60#84#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,7 +526,7 @@
         <state relative-caret-position="345">
           <caret line="23" column="90" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="23" selection-end-column="90" />
           <folding>
-            <element signature="e#60#85#0" expanded="true" />
+            <element signature="e#60#85#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -636,7 +579,7 @@
         <state relative-caret-position="315">
           <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding>
-            <element signature="e#60#84#0" expanded="true" />
+            <element signature="e#60#84#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -646,7 +589,7 @@
         <state relative-caret-position="315">
           <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
           <folding>
-            <element signature="e#60#84#0" expanded="true" />
+            <element signature="e#60#84#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -656,7 +599,7 @@
         <state relative-caret-position="345">
           <caret line="23" column="90" lean-forward="true" selection-start-line="22" selection-start-column="43" selection-end-line="23" selection-end-column="90" />
           <folding>
-            <element signature="e#60#85#0" expanded="true" />
+            <element signature="e#60#85#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -732,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/Estrategia.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaFuerzaBruta.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -746,25 +682,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,84 +724,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="23" column="73" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
-          <folding>
-            <element signature="e#60#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#60#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="e#60#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#60#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programacion_dinamica/test/ProgramacionDinamicaTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-          <folding>
-            <element signature="e#60#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/execute_src/entrada_basica.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -893,13 +740,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp">
+    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#60#78#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="105" column="19" lean-forward="false" selection-start-line="105" selection-start-column="19" selection-end-line="105" selection-end-column="19" />
+          <folding>
+            <element signature="e#60#84#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="99" column="41" lean-forward="false" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+          <folding>
+            <element signature="e#60#84#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execute_src/run_instances.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#59#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programacion_dinamica/test/ProgramacionDinamicaTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+          <folding>
+            <element signature="e#60#84#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execute_src/entrada_basica.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/src/Estrategia.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding>
+            <element signature="e#60#85#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="64" lean-forward="false" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="41" column="1" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="41" selection-end-column="1" />
           <folding>
             <element signature="e#60#79#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources-FB.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="1" lean-forward="false" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+          <folding>
+            <element signature="e#61#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources-BT.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-172">
+          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="76" selection-end-line="11" selection-end-column="76" />
+          <folding>
+            <element signature="e#61#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources-PD.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding>
+            <element signature="e#60#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="65" lean-forward="false" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>

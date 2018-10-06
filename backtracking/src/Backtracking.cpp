@@ -6,9 +6,8 @@
 #include <numeric>
 
 int Backtracking::execute(std::vector<int> &elements, int objectValue) {
-    std::vector<int> result;
     int responce = INT_MAX;
-    minimoSubconjuntoQueSuma(elements,objectValue,0,result,responce);
+    minimoSubconjuntoQueSuma(elements, objectValue, responce, 0, 0, 0);
     return responce;
 }
 
@@ -20,19 +19,19 @@ int Backtracking::summation(std::vector<int> &vector) {
     return summation;
 }
 
-void Backtracking::minimoSubconjuntoQueSuma(std::vector<int> &originalSet, int &objectiveValue, int index,
-                                            std::vector<int> partialResult, int &bestResult) {
+void Backtracking::minimoSubconjuntoQueSuma(std::vector<int> &originalSet, int &objectiveValue, int &bestResult, int index,
+                                            int partialResult, int partialSum) {
     if(index == originalSet.size()){
-        if(summation(partialResult) == objectiveValue && partialResult.size() < bestResult){
-            bestResult = partialResult.size();
+        if(partialSum == objectiveValue && partialResult < bestResult){
+            bestResult = partialResult;
         }
     }else{
-        if(this->estrategia->estrategiaDePoda(originalSet,objectiveValue,index,partialResult,bestResult)) return;
+        if(this->estrategia->estrategiaDePoda(originalSet, objectiveValue, bestResult, index, partialResult, partialSum)) return;
 
-        minimoSubconjuntoQueSuma(originalSet,objectiveValue,index+1,partialResult,bestResult);
+        minimoSubconjuntoQueSuma(originalSet, objectiveValue, bestResult, index + 1, partialResult, partialSum);
 
-        partialResult.push_back(originalSet.at(index));
-        minimoSubconjuntoQueSuma(originalSet,objectiveValue,index+1,partialResult,bestResult);
+        partialSum += originalSet.at(index);
+        minimoSubconjuntoQueSuma(originalSet, objectiveValue, bestResult, index + 1, partialResult+1, partialSum);
     }
     return;
 }
