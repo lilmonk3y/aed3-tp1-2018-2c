@@ -21,3 +21,6 @@ add_executable(BACKTRACKING ${BACKTRACKING_SRC})
 
 set(PROGRAMACION_DINAMICA_SRC programacion_dinamica/src/ProgramacionDinamica.h programacion_dinamica/src/ProgramacionDinamica.cpp execute_src/getInputMultipleSources-PD.cpp)
 add_executable(PROGRAMACION_DINAMICA ${PROGRAMACION_DINAMICA_SRC})
+
+set(EXPERIMENTOS_SRC backtracking/src/Backtracking.cpp backtracking/src/Backtracking.h  backtracking/src/Estrategia.h backtracking/src/EstrategiaFuerzaBruta.cpp backtracking/src/EstrategiaFuerzaBruta.h backtracking/src/EstrategiaBacktracking.cpp backtracking/src/EstrategiaBacktracking.h programacion_dinamica/src/ProgramacionDinamica.cpp programacion_dinamica/src/ProgramacionDinamica.h execute_src/run_instances.cpp)
+add_executable(EXPERIMENTOS ${EXPERIMENTOS_SRC})

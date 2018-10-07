@@ -37,6 +37,16 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="PROGRAMACION_DINAMICA">
 				<Option output="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/PROGRAMACION_DINAMICA" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug"/>
@@ -143,16 +153,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="install/strip">
 				<Option working_dir="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug"/>
 				<Option type="4"/>
@@ -216,6 +216,54 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 FUERZA_BRUTA/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EXPERIMENTOS">
+				<Option output="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/EXPERIMENTOS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/lib/googletest/googletest/include"/>
+					<Add directory="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/lib/googletest/googlemock/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 EXPERIMENTOS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EXPERIMENTOS/fast">
+				<Option output="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/EXPERIMENTOS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/lib/googletest/googletest/include"/>
+					<Add directory="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/lib/googletest/googlemock/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 EXPERIMENTOS/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -475,32 +523,39 @@
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/Backtracking.cpp">
 			<Option target="BACKTRACKING"/>
 			<Option target="FUERZA_BRUTA"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/Backtracking.h">
 			<Option target="BACKTRACKING"/>
 			<Option target="FUERZA_BRUTA"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/Estrategia.h">
 			<Option target="BACKTRACKING"/>
 			<Option target="FUERZA_BRUTA"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaBacktracking.cpp">
 			<Option target="BACKTRACKING"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaBacktracking.h">
 			<Option target="BACKTRACKING"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaFuerzaBruta.cpp">
 			<Option target="FUERZA_BRUTA"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/src/EstrategiaFuerzaBruta.h">
 			<Option target="FUERZA_BRUTA"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/backtracking/test/BacktrackingPodasTest.cpp">
@@ -517,6 +572,9 @@
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/execute_src/getInputMultipleSources-PD.cpp">
 			<Option target="PROGRAMACION_DINAMICA"/>
+		</Unit>
+		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/execute_src/run_instances.cpp">
+			<Option target="EXPERIMENTOS"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/lib/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
@@ -535,10 +593,12 @@
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.cpp">
 			<Option target="PROGRAMACION_DINAMICA"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.h">
 			<Option target="PROGRAMACION_DINAMICA"/>
+			<Option target="EXPERIMENTOS"/>
 			<Option target="tp1_gtest"/>
 		</Unit>
 		<Unit filename="/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/test/ProgramacionDinamicaTest.cpp">
