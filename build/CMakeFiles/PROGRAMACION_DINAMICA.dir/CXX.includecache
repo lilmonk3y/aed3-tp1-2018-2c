@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/execute_src/getInputMultipleSources-PD.cpp
+iostream
+-
+array
+-
+vector
+-
+../programacion_dinamica/src/ProgramacionDinamica.h
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.h
+
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.cpp
+climits
+-
+vector
+-
+ProgramacionDinamica.h
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.h
+
+/Users/crivera/Documents/facultad/aed3-2018-2c/tp1_gtest/programacion_dinamica/src/ProgramacionDinamica.h
+

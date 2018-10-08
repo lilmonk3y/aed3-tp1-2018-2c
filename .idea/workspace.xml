@@ -21,86 +21,114 @@
   <component name="ChangeListManager">
     <list default="true" id="34ec942c-aab7-437a-b466-6671d911cf9e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change beforePath="$PROJECT_DIR$/build/BACKTRACKING" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/BACKTRACKING.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/BACKTRACKING.dir/backtracking/src/Backtracking.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/BACKTRACKING.dir/backtracking/src/EstrategiaBacktracking.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/BACKTRACKING.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/BACKTRACKING.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/BACKTRACKING.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/BACKTRACKING.dir/execute_src/getInputMultipleSources-BT.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/Backtracking.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/execute_src/getInputMultipleSources-FB.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/FUERZA_BRUTA.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/PROGRAMACION_DINAMICA.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/PROGRAMACION_DINAMICA.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/PROGRAMACION_DINAMICA.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/PROGRAMACION_DINAMICA.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/PROGRAMACION_DINAMICA.dir/execute_src/getInputMultipleSources-PD.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/PROGRAMACION_DINAMICA.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/PROGRAMACION_DINAMICA.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/PROGRAMACION_DINAMICA.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingPodasTest.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingTest.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/depend.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/main.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/programacion_dinamica/src/ProgramacionDinamica.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/programacion_dinamica/test/ProgramacionDinamicaTest.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/progress.make" afterPath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/prueba_integracion_con_gtest/src/factorial.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/CMakeFiles/tp1_gtest.dir/prueba_integracion_con_gtest/test/factorialTest.cpp.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/FUERZA_BRUTA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/Makefile" afterPath="$PROJECT_DIR$/build/Makefile" />
-      <change beforePath="$PROJECT_DIR$/build/PROGRAMACION_DINAMICA" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend.make" afterPath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" afterPath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/depend.make" afterPath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterPath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/depend.make" afterPath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterPath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/CXX.includecache" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.internal" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.make" afterPath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterPath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/libgtest.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/gtest/libgtest_main.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/libgmock.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/lib/googletest/googlemock/libgmock_main.a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/tp1_gtest" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tp1_gtest.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/tp1_gtest.cbp" />
-      <change beforePath="$PROJECT_DIR$/execute_src/run_instances.cpp" afterPath="$PROJECT_DIR$/execute_src/run_instances.cpp" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeCXXCompiler.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_C.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeDetermineCompilerABI_CXX.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CMakeSystem.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/src/Backtracking.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaBacktracking.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/src/EstrategiaFuerzaBruta.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/backtracking/test/BacktrackingTest.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/main.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/prueba_integracion_con_gtest/src/factorial.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/tp1_gtest.dir/prueba_integracion_con_gtest/test/factorialTest.cpp.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/CTestTestfile.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/cmake_clean_target.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/cmake_clean_target.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/CTestTestfile.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gmock.cbp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/CMakeDirectoryInformation.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets-debug.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/Export/lib/cmake/GTest/GTestTargets.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/cmake_clean_target.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/CXX.includecache" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/cmake_clean.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/cmake_clean_target.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.internal" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/progress.make" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CMakeFiles/progress.marks" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/CTestTestfile.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/cmake_install.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/generated/GTestConfig.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/generated/GTestConfigVersion.cmake" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/generated/gmock.pc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/generated/gmock_main.pc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/generated/gtest.pc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/generated/gtest_main.pc" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/gtest.cbp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/libgtest_maind.a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googlemock/gtest/libgtestd.a" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/googletest/googletest-distribution.cbp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tp1_gtest" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/tp1_gtest.cbp" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -116,18 +144,18 @@
       <file leaf-file-name="BacktrackingTest.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingTest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="167">
               <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getInputMultipleSources.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/execute_src/getInputMultipleSources.cpp">
+      <file leaf-file-name="Backtracking.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="228">
+              <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -136,8 +164,8 @@
       <file leaf-file-name="run_instances.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/execute_src/run_instances.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="139" column="23" lean-forward="true" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+            <state relative-caret-position="1987">
+              <caret line="281" column="60" lean-forward="false" selection-start-line="281" selection-start-column="60" selection-end-line="281" selection-end-column="60" />
               <folding>
                 <element signature="e#59#78#0" expanded="true" />
               </folding>
@@ -145,41 +173,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="experimento_3.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/experimento_3.csv">
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="105">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="experimento_0.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_0.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProgramacionDinamica.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-367">
+              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experimento_4.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_4.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="experimento_5.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_5.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EstrategiaBacktracking.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="limits" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/limits">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="128" column="4" lean-forward="false" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BacktrackingPodasTest.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="113" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -231,8 +289,8 @@
         <option value="$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp" />
         <option value="$PROJECT_DIR$/backtracking/src/Backtracking.cpp" />
         <option value="$PROJECT_DIR$/backtracking/test/BacktrackingPodasTest.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/execute_src/run_instances.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -273,27 +331,6 @@
               <item name="tp1_gtest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
               <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tp1_gtest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp1_gtest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
-              <item name="backtracking" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp1_gtest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tp1_gtest" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
-              <item name="tp1_gtest" type="462c0819:PsiDirectoryNode" />
-              <item name="execute_src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -304,6 +341,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datos_experimentacion" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -317,7 +359,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EXPERIMENTOS">
+  <component name="RunManager" selected="Application.tp1_gtest">
     <configuration name="BacktrackingTest" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="BacktrackingTest" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
@@ -333,19 +375,19 @@
     <configuration name="PodasTest.whenPartialResultSummationIsSmallerThanObjectiveValue_mustReturnFalse" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="tp1_gtest" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" TEST_CLASS="PodasTest" TEST_METHOD="whenPartialResultSummationIsSmallerThanObjectiveValue_mustReturnFalse" TEST_MODE="SUITE_TEST">
       <envs />
     </configuration>
-    <configuration name="BACKTRACKING" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="BACKTRACKING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="EXPERIMENTOS">
+    <configuration name="BACKTRACKING" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="BACKTRACKING" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest">
       <envs />
     </configuration>
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="EXPERIMENTOS" EXPLICIT_BUILD_TARGET_NAME="all">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="EXPERIMENTOS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="EXPERIMENTOS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="EXPERIMENTOS">
+    <configuration name="EXPERIMENTOS" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="EXPERIMENTOS" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest">
       <envs />
     </configuration>
-    <configuration name="FUERZA_BRUTA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="FUERZA_BRUTA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="FUERZA_BRUTA">
+    <configuration name="FUERZA_BRUTA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="FUERZA_BRUTA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest">
       <envs />
     </configuration>
-    <configuration name="PROGRAMACION_DINAMICA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="PROGRAMACION_DINAMICA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="PROGRAMACION_DINAMICA">
+    <configuration name="PROGRAMACION_DINAMICA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="PROGRAMACION_DINAMICA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="tp1_gtest" RUN_TARGET_NAME="tp1_gtest">
       <envs />
     </configuration>
     <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="tp1_gtest" TARGET_NAME="gmock" CONFIG_NAME="Debug">
@@ -447,11 +489,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90128000" />
+    <option name="totallyTimeSpent" value="98033000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="725" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25178713" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -461,7 +502,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.354201" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.354201" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31269842" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -690,16 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/entrada_basica.txt" />
     <entry file="file://$PROJECT_DIR$/execute_src/getInputOneSource.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,16 +744,6 @@
         <state relative-caret-position="15">
           <caret line="1520" column="0" lean-forward="false" selection-start-line="1520" selection-start-column="0" selection-end-line="1520" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#60#78#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -805,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backtracking/src/Estrategia.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -825,14 +838,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -853,26 +858,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/limits">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="128" column="4" lean-forward="false" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="25" column="47" lean-forward="false" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -893,15 +882,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/experimento_0.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/experimento_1.csv">
+    <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
@@ -909,7 +890,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/experimento_2.csv">
+    <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-338">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -917,7 +898,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/experimento_5.csv">
+    <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_4.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -925,7 +914,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/experimento_4.csv">
+    <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_5.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/src/EstrategiaBacktracking.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backtracking/src/Backtracking.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programacion_dinamica/src/ProgramacionDinamica.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-367">
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datos_experimentacion/experimento_0.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -935,18 +956,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/execute_src/run_instances.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="139" column="23" lean-forward="true" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        <state relative-caret-position="1987">
+          <caret line="281" column="60" lean-forward="false" selection-start-line="281" selection-start-column="60" selection-end-line="281" selection-end-column="60" />
           <folding>
             <element signature="e#59#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/experimento_3.csv">
+    <entry file="file://$PROJECT_DIR$/backtracking/test/BacktrackingTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+        <state relative-caret-position="167">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="48" />
           <folding />
         </state>
       </provider>
